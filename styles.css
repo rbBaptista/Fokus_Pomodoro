@@ -1,22 +1,24 @@
 :root {
     --color-primary: #123456;
     --color-secondary: #FFF;
-    --azul-royal: #144480;
-    --fundo-card-timer: rgba(20, 68, 128, 0.30);
+    --azul-royal: #4c81c2;
+    --fundo-card-timer: rgba(134, 158, 24, 0.3);
     --lils: #B872FF;
-    --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
+    --linear-botes: linear-gradient(180deg, #ff72c0 0%, #1d8014 100%);
 }
 
 [data-contexto="foco"] {
-    --main-bg-color: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
+    /* --main-bg-color: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%); */
+    --main-bg-color: linear-gradient(180deg, #f0ed36 0%, #0f420a 48.44%, #01080E 100%);
+    
 }
 
 [data-contexto="descanso-curto"] {
-    --main-bg-color: linear-gradient(180deg, #0F725C 0%, #041832 48.44%, #01080E 100%);
+    --main-bg-color: linear-gradient(180deg, #236355 0%, #0f420a 48.44%, #01080E 100%);
 }
 
 [data-contexto="descanso-longo"] {
-    --main-bg-color: linear-gradient(180deg, #1875E9 0%, #041832 48.44%, #01080E 100%);
+    --main-bg-color: linear-gradient(180deg, #457fc7 0%, #0f420a 48.44%, #01080E 100%);
 }
 
 * {
