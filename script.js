@@ -8,6 +8,7 @@ const botoes = document.querySelectorAll('.app__card-button')
 const startPauseBt = document.querySelector('#start-pause')
 const musicaFocoInput = document.querySelector('#alternar-musica')
 const iniciarOuPausarBt = document.querySelector('#start-pause span')
+const reiniciarBt = document.querySelector('#reiniciar span')
 const iniciarOuPausarBtIcone = document.querySelector(".app__card-primary-butto-icon") 
 const tempoNaTela = document.querySelector('#timer')
 
@@ -85,6 +86,10 @@ const contagemRegressiva = () => {
     tempoDecorridoEmSegundos -= 1
     mostrarTempo()
 }
+
+reiniciarBt.addEventListener('click', function() {
+    location.reload();
+});
 
 startPauseBt.addEventListener('click', iniciarOuPausar)
 
